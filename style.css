@@ -1,0 +1,178 @@
+.container{
+    background: #BCEFFA;
+    max-width: 70%;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 5% auto auto;
+}
+
+.name{
+    text-align: center;
+    color: #053743;
+}
+
+.contactInfo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    align-items: center;
+    color: #085B6E;
+}
+
+h4, a{
+margin: 0;
+}
+
+.edu{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: #053743;
+}
+
+.ku{
+    margin-top: 2%;
+    color: #085B6E;
+}
+
+.umf{
+    margin-top: 2%;
+    color: #085B6E;
+}
+
+.gec{
+    margin-top: 2%;
+    color: #085B6E;
+}
+
+.ku1{
+    text-align: left;
+    display: flex;
+    gap: 80%;
+}
+
+.umf1{
+    text-align: left;
+    display: flex;
+    gap: 80%;
+}
+
+.gec1{
+    text-align: left;
+    display: flex;
+    gap: 80%;
+}
+
+h5,p{
+    margin: 0;
+}
+
+.exp{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: #053743;
+}
+
+.ta{
+    margin-top: 2%;
+    color: #085B6E;
+}
+
+.intern{
+    margin-top: 2%;
+    color: #085B6E;
+}
+
+.campAssistant{
+    margin-top: 2%;
+    color: #085B6E;
+}
+
+.ta1{
+    text-align: left;
+    display: flex;
+    gap: 80%;
+}
+
+.intern1{
+    text-align: left;
+    display: flex;
+    gap: 80%;
+}
+
+.campAssistant1{
+    text-align: left;
+    display: flex;
+    gap: 80%;
+}
+
+.ach{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: #053743;
+}
+
+.ach1{
+    color: #085B6E;
+}
+
+.le{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: #053743;
+}
+
+.stgvt{
+    margin-top: 2%;
+    color: #085B6E;
+}
+
+.rbtcs{
+    margin-top: 2%;
+    color: #085B6E;
+}
+
+.stgvt1{
+    text-align: left;
+    display: flex;
+    gap: 80%;
+}
+
+.rbtcs1{
+    text-align: left;
+    display: flex;
+    gap: 80%;
+}
+
+.extc{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: #053743;
+}
+
+.extc1{
+    color: #085B6E;
+}
+
+.skls{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: #053743;
+}
+
+.skls1{
+    color: #085B6E;
+}
