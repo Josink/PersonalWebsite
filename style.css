@@ -201,3 +201,22 @@ h5,p{
 .skls1{
     color: #085B6E;
 }
+
+.weatherApp{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: rgb(227 55 16);
+}
+
+.weatherAppDetails{
+    color: #085B6E;
+}
+
+.weatherAppLinks{
+    display: flex;
+    justify-content: left;
+    gap: 2%;
+    margin-top: 2%;
+}
