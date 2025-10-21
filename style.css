@@ -7,22 +7,52 @@
     margin: 5% auto auto;
 }
 
+.projectInfo{
+    display: flex;
+    justify-content: right;
+    gap: 2%;
+}
+
+.return{
+    display: flex;
+    justify-content: right;
+    gap: 2%;
+}
 .name{
     text-align: center;
     color: #053743;
 }
 
-.contactInfo{
+.info{
     text-align: center;
-    display: flex;
-    justify-content: center;
-    gap: 2%;
-    align-items: center;
     color: #085B6E;
 }
 
-h4, a{
+.contactInfo{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    color: #085B6E;
+}
+
+a{
 margin: 0;
+}
+
+a:link, a:visited{
+    background-color: #BCEFFA;
+    color:#021418;
+    border: 2px rgb(227 55 16);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a:hover, a:active{
+    background-color:rgb(227 55 16);
+    border-radius: 10px;
+    color: #021418;
 }
 
 .edu{
