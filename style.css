@@ -214,9 +214,33 @@ h5,p{
     color: #085B6E;
 }
 
-.weatherAppLinks{
+.projectLinks{
     display: flex;
     justify-content: left;
     gap: 2%;
     margin-top: 2%;
+}
+
+.robotCode{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: rgb(227 55 16);
+}
+
+.robotCodeDetails{
+    color: #085B6E;
+}
+
+.waterDropGame{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: rgb(227 55 16);
+}
+
+.waterDropGameDetails{
+    color: #085B6E;
 }
