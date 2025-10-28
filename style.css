@@ -256,3 +256,15 @@ h5,p{
 .breakOutGameDetails{
     color: #085B6E;
 }
+
+.richardSikenQuoteGenerator{
+    padding: 3%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #021418;
+    margin: 2%;
+    color: rgb(227 55 16);
+}
+
+.richardSikenQuoteGeneratorDetails{
+    color: #085B6E;
+}
