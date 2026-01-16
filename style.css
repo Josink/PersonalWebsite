@@ -103,9 +103,10 @@ h5,p{
 .project{
     padding: 3%;
     border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
+    box-shadow: 0 0 10px #93E1D8;
     margin: 2%;
     color: var(--darkerText);
+    transition: tranform 0.3s;
 }
 
 .projectDetails{
