@@ -56,12 +56,22 @@ a:hover, a:active{
     text-decoration: underline;
 }
 
+.infoCards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
 .card{
-    padding: 3%;
+    padding: 1,5rem;
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
     color: var(--darkerText);
+    text-align: center;
+    transition: tranform 0.3s;
 }
 
 h5,p{
