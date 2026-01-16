@@ -1,5 +1,11 @@
+:root{
+    --bg: #BCEFFA;
+    --secondary: #FABCEF;
+    --tertiary: #EFFABC;
+}
+
 .container{
-    background: #BCEFFA;
+    background: var(--bg);
     max-width: 70%;
     padding: 5%;
     border-radius: 10px;
@@ -20,20 +26,20 @@
 }
 .name{
     text-align: center;
-    color: rgb(227 55 16);
+    color: var(--secondary);
     font-weight: bold;
 }
 
 .info{
     text-align: center;
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .contactInfo{
     display: flex;
     justify-content: center;
     gap: 2%;
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 a{
@@ -41,7 +47,7 @@ margin: 0;
 }
 
 a:link, a:visited{
-    color:rgb(227 55 16);
+    color:var(--secondary);
     text-decoration: none;
 }
 
@@ -55,22 +61,22 @@ a:hover, a:active{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: rgb(227 55 16);
+    color: var(--secondary);
 }
 
 .ku{
     margin-top: 2%;
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .umf{
     margin-top: 2%;
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .gec{
     margin-top: 2%;
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .ku1{
@@ -100,12 +106,12 @@ h5,p{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: rgb(227 55 16);
+    color: var(--secondary);
 }
 
 .place{
     margin-top: 2%;
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .details{
@@ -119,11 +125,11 @@ h5,p{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: rgb(227 55 16);
+    color: var(--secondary);
 }
 
 .ach1{
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .le{
@@ -131,17 +137,17 @@ h5,p{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: rgb(227 55 16);
+    color: var(--secondary);
 }
 
 .stgvt{
     margin-top: 2%;
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .rbtcs{
     margin-top: 2%;
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .stgvt1{
@@ -161,11 +167,11 @@ h5,p{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: rgb(227 55 16);
+    color: var(--secondary);
 }
 
 .extc1{
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .skls{
@@ -173,11 +179,11 @@ h5,p{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: rgb(227 55 16);
+    color: var(--secondary);
 }
 
 .skls1{
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .weatherApp{
@@ -185,11 +191,11 @@ h5,p{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: rgb(227 55 16);
+    color: var(--secondary);
 }
 
 .weatherAppDetails{
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .projectLinks{
@@ -204,11 +210,11 @@ h5,p{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: rgb(227 55 16);
+    color: var(--secondary);
 }
 
 .robotCodeDetails{
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .waterDropGame{
@@ -220,7 +226,7 @@ h5,p{
 }
 
 .waterDropGameDetails{
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .breakOutGame{
@@ -232,7 +238,7 @@ h5,p{
 }
 
 .breakOutGameDetails{
-    color: #085B6E;
+    color: var(--tertiary);
 }
 
 .richardSikenQuoteGenerator{
@@ -244,5 +250,5 @@ h5,p{
 }
 
 .richardSikenQuoteGeneratorDetails{
-    color: #085B6E;
+    color: var(--tertiary);
 }
