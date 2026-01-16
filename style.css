@@ -70,7 +70,6 @@ a:hover, a:active{
     box-shadow: 0 0 10px #021418;
     margin: 2%;
     color: var(--darkerText);
-    text-align: center;
     transition: tranform 0.3s;
 }
 
