@@ -79,13 +79,6 @@ h5,p{
     gap: 80%;
 }
 
-.projectLinks{
-    display: flex;
-    justify-content: left;
-    gap: 2%;
-    margin-top: 2%;
-}
-
 .project{
     padding: 3%;
     border-radius: 10px;
@@ -96,4 +89,11 @@ h5,p{
 
 .projectDetails{
     color: var(----lighterText);
+}
+
+.projectLinks{
+    display: flex;
+    justify-content: left;
+    gap: 2%;
+    margin-top: 2%;
 }
