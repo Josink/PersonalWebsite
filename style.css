@@ -67,7 +67,7 @@ a:hover, a:active{
 .card{
     padding: 3%;
     border-radius: 10px;
-    box-shadow: 0 0 10px #93E1D8;
+    box-shadow: 0 0 10px #008F6D;
     margin: 2%;
     color: var(--darkerText);
     transition: tranform 0.3s;
