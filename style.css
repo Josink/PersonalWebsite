@@ -103,56 +103,12 @@ h5,p{
     color: rgb(227 55 16);
 }
 
-.coop{
+.place{
     margin-top: 2%;
     color: #085B6E;
 }
 
-.ca{
-    margin-top: 2%;
-    color: #085B6E;
-}
-
-.ta{
-    margin-top: 2%;
-    color: #085B6E;
-}
-
-.intern{
-    margin-top: 2%;
-    color: #085B6E;
-}
-
-.campAssistant{
-    margin-top: 2%;
-    color: #085B6E;
-}
-
-.coop1{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
-.ca1{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
-.ta1{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
-.intern1{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
-.campAssistant1{
+.details{
     text-align: left;
     display: flex;
     gap: 80%;
