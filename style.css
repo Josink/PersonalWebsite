@@ -79,18 +79,6 @@ h5,p{
     gap: 80%;
 }
 
-.weatherApp{
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
-    margin: 2%;
-    color: var(--darkerText);
-}
-
-.weatherAppDetails{
-    color: var(----lighterText);
-}
-
 .projectLinks{
     display: flex;
     justify-content: left;
@@ -98,7 +86,7 @@ h5,p{
     margin-top: 2%;
 }
 
-.robotCode{
+.project{
     padding: 3%;
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
@@ -106,42 +94,6 @@ h5,p{
     color: var(--darkerText);
 }
 
-.robotCodeDetails{
-    color: var(----lighterText);
-}
-
-.waterDropGame{
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
-    margin: 2%;
-    color: rgb(227 55 16);
-}
-
-.waterDropGameDetails{
-    color: var(----lighterText);
-}
-
-.breakOutGame{
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
-    margin: 2%;
-    color: rgb(227 55 16);
-}
-
-.breakOutGameDetails{
-    color: var(----lighterText);
-}
-
-.richardSikenQuoteGenerator{
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
-    margin: 2%;
-    color: rgb(227 55 16);
-}
-
-.richardSikenQuoteGeneratorDetails{
+.projectDetails{
     color: var(----lighterText);
 }
