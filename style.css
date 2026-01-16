@@ -110,3 +110,18 @@ h5,p{
     gap: 2%;
     margin-top: 2%;
 }
+
+@media (max-width: 768px) {
+    h1 { font-size: 50px; }
+    p { font-size: 18px; }
+
+    .container {
+        max-width: 90%;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 40px; }
+    p { font-size: 16px; }
+}
