@@ -1,7 +1,7 @@
 :root{
-    --bg: #DDFFF7;
-    --darkerText: #AA4465;
-    --lighterText: #FFA69E;
+    --bg: #C5FFFD;
+    --darkerText: #FFA69E;
+    --lighterText: #AA4465;
 }
 
 .container{
