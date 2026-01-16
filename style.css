@@ -9,7 +9,7 @@
     max-width: 70%;
     padding: 5%;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px #93E1D8;
     margin: 5% auto auto;
 }
 
@@ -52,7 +52,7 @@ a:link, a:visited{
 }
 
 a:hover, a:active{
-    color: rgb(255 171 143);
+    color:#FFA69E;
     text-decoration: underline;
 }
 
