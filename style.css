@@ -64,39 +64,6 @@ a:hover, a:active{
     color: var(--darkerText);
 }
 
-.ku{
-    margin-top: 2%;
-    color: var(----lighterText);
-}
-
-.umf{
-    margin-top: 2%;
-    color: var(----lighterText);
-}
-
-.gec{
-    margin-top: 2%;
-    color: var(----lighterText);
-}
-
-.ku1{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
-.umf1{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
-.gec1{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
 h5,p{
     margin: 0;
 }
@@ -110,40 +77,6 @@ h5,p{
     text-align: left;
     display: flex;
     gap: 80%;
-}
-
-.ach1{
-    color: var(----lighterText);
-}
-
-.stgvt{
-    margin-top: 2%;
-    color: var(----lighterText);
-}
-
-.rbtcs{
-    margin-top: 2%;
-    color: var(----lighterText);
-}
-
-.stgvt1{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
-.rbtcs1{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
-.extc1{
-    color: var(----lighterText);
-}
-
-.skls1{
-    color: var(----lighterText);
 }
 
 .weatherApp{
