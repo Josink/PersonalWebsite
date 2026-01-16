@@ -92,6 +92,14 @@ h5,p{
     gap: 80%;
 }
 
+.projects{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 2rem auto;
+}
+
 .project{
     padding: 3%;
     border-radius: 10px;
