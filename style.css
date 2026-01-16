@@ -119,6 +119,10 @@ h5,p{
     margin-top: 2%;
 }
 
+.project:hover{
+    transform: translateY(-5px);
+}
+
 @media (max-width: 768px) {
     h1 { font-size: 50px; }
     p { font-size: 18px; }
