@@ -73,6 +73,10 @@ a:hover, a:active{
     transition: tranform 0.3s;
 }
 
+.card:hover{
+    transform: translateY(-5px);
+}
+
 h5,p{
     margin: 0;
 }
