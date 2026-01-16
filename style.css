@@ -1,7 +1,7 @@
 :root{
     --bg: #C5FFFD;
-    --secondary: #88D9E6;
-    --tertiary: #C3BEF7;
+    --darkerText: #88D9E6;
+    ----lighterText: #C3BEF7;
 }
 
 .container{
@@ -26,20 +26,20 @@
 }
 .name{
     text-align: center;
-    color: var(--secondary);
+    color: var(--darkerText);
     font-weight: bold;
 }
 
 .info{
     text-align: center;
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .contactInfo{
     display: flex;
     justify-content: center;
     gap: 2%;
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 a{
@@ -47,7 +47,7 @@ margin: 0;
 }
 
 a:link, a:visited{
-    color:var(--secondary);
+    color:var(--darkerText);
     text-decoration: none;
 }
 
@@ -56,27 +56,27 @@ a:hover, a:active{
     text-decoration: underline;
 }
 
-.edu{
+.card{
     padding: 3%;
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: var(--secondary);
+    color: var(--darkerText);
 }
 
 .ku{
     margin-top: 2%;
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .umf{
     margin-top: 2%;
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .gec{
     margin-top: 2%;
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .ku1{
@@ -101,17 +101,9 @@ h5,p{
     margin: 0;
 }
 
-.exp{
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
-    margin: 2%;
-    color: var(--secondary);
-}
-
 .place{
     margin-top: 2%;
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .details{
@@ -120,34 +112,18 @@ h5,p{
     gap: 80%;
 }
 
-.ach{
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
-    margin: 2%;
-    color: var(--secondary);
-}
-
 .ach1{
-    color: var(--tertiary);
-}
-
-.le{
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
-    margin: 2%;
-    color: var(--secondary);
+    color: var(----lighterText);
 }
 
 .stgvt{
     margin-top: 2%;
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .rbtcs{
     margin-top: 2%;
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .stgvt1{
@@ -162,28 +138,12 @@ h5,p{
     gap: 80%;
 }
 
-.extc{
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
-    margin: 2%;
-    color: var(--secondary);
-}
-
 .extc1{
-    color: var(--tertiary);
-}
-
-.skls{
-    padding: 3%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px #021418;
-    margin: 2%;
-    color: var(--secondary);
+    color: var(----lighterText);
 }
 
 .skls1{
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .weatherApp{
@@ -191,11 +151,11 @@ h5,p{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: var(--secondary);
+    color: var(--darkerText);
 }
 
 .weatherAppDetails{
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .projectLinks{
@@ -210,11 +170,11 @@ h5,p{
     border-radius: 10px;
     box-shadow: 0 0 10px #021418;
     margin: 2%;
-    color: var(--secondary);
+    color: var(--darkerText);
 }
 
 .robotCodeDetails{
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .waterDropGame{
@@ -226,7 +186,7 @@ h5,p{
 }
 
 .waterDropGameDetails{
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .breakOutGame{
@@ -238,7 +198,7 @@ h5,p{
 }
 
 .breakOutGameDetails{
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
 
 .richardSikenQuoteGenerator{
@@ -250,5 +210,5 @@ h5,p{
 }
 
 .richardSikenQuoteGeneratorDetails{
-    color: var(--tertiary);
+    color: var(----lighterText);
 }
