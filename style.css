@@ -1,3 +1,4 @@
+/* Default = Dark Mode */
 :root{
     --bg: #0F172A;
     --cardBg: #1E293B;
@@ -7,15 +8,44 @@
     --shadow: rgba(0, 0, 0, 0.4);
 }
 
-/* Base Styling */
+/* Light Mode Variables */
+body.light-mode{
+    --bg: #F8FAFC;
+    --cardBg: #FFFFFF;
+    --darkerText: #1F2937;
+    --lighterText: #6B7280;
+    --accent: #2563EB;
+    --shadow: rgba(0, 0, 0, 0.08);
+}
+
 body{
     background-color: var(--bg);
     font-family: 'Inter', 'Segoe UI', sans-serif;
     line-height: 1.6;
     margin: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Main Container */
+.theme-toggle{
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: var(--cardBg);
+    color: var(--darkerText);
+    border: 1px solid var(--lighterText);
+    padding: 8px 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.theme-toggle:hover{
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+}
+
 .container{
     background: var(--cardBg);
     max-width: 70%;
@@ -23,22 +53,20 @@ body{
     border-radius: 12px;
     box-shadow: 0 8px 24px var(--shadow);
     margin: 5% auto auto;
+    transition: background 0.3s ease;
 }
 
-/* Header / Name */
 .name{
     text-align: center;
     color: var(--darkerText);
     font-weight: bold;
 }
 
-/* Subtitle / Info */
 .info{
     text-align: center;
     color: var(--lighterText);
 }
 
-/* Contact Info */
 .contactInfo{
     display: flex;
     justify-content: center;
@@ -46,7 +74,6 @@ body{
     color: var(--lighterText);
 }
 
-/* Links */
 a{
     margin: 0;
 }
@@ -64,46 +91,7 @@ a:active{
     text-decoration: underline;
 }
 
-/* Info Cards Section */
-.infoCards{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    gap: 1.5rem;
-    max-width: 800px;
-    margin: 2rem auto;
-}
-
-.card{
-    background: var(--cardBg);
-    padding: 3%;
-    border-radius: 12px;
-    box-shadow: 0 6px 18px var(--shadow);
-    margin: 2%;
-    color: var(--darkerText);
-    transition: transform 0.3s ease;
-}
-
-.card:hover{
-    transform: translateY(-6px);
-}
-
-/* Text Spacing */
-h5,p{
-    margin: 0;
-}
-
-.place{
-    margin-top: 2%;
-    color: var(--lighterText);
-}
-
-.details{
-    text-align: left;
-    display: flex;
-    gap: 80%;
-}
-
-/* Projects Section */
+.infoCards,
 .projects{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -112,6 +100,7 @@ h5,p{
     margin: 2rem auto;
 }
 
+.card,
 .project{
     background: var(--cardBg);
     padding: 3%;
@@ -119,14 +108,16 @@ h5,p{
     box-shadow: 0 6px 18px var(--shadow);
     margin: 2%;
     color: var(--darkerText);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, background 0.3s ease;
 }
 
+.card:hover,
 .project:hover{
     transform: translateY(-6px);
 }
 
-.projectDetails{
+.projectDetails,
+.place{
     color: var(--lighterText);
 }
 
@@ -137,13 +128,17 @@ h5,p{
     margin-top: 2%;
 }
 
-/* Utility Layout */
-.projectInfo{
+.details{
+    text-align: left;
     display: flex;
-    justify-content: right;
-    gap: 2%;
+    gap: 80%;
 }
 
+h5,p{
+    margin: 0;
+}
+
+.projectInfo,
 .return{
     display: flex;
     justify-content: right;
