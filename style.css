@@ -1,7 +1,15 @@
 :root{
-    --bg: #C5FFFD;
-    --darkerText: #462255;
-    --lighterText: #AA4465;
+    --bg: #F8FAFC;
+    --darkerText: #1F2937;
+    --lighterText: #6B7280;
+    --accent: #2563EB;
+    --shadow: rgba(0, 0, 0, 0.08);
+}
+
+body{
+    background-color: var(--bg);
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    line-height: 1.6;
 }
 
 .container{
@@ -9,7 +17,7 @@
     max-width: 70%;
     padding: 5%;
     border-radius: 10px;
-    box-shadow: 0 0 10px #93E1D8;
+    box-shadow: 0 4px 12px var(--shadow);
     margin: 5% auto auto;
 }
 
@@ -47,12 +55,13 @@ margin: 0;
 }
 
 a:link, a:visited{
-    color:var(--darkerText);
+    color: var(--accent);
     text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover, a:active{
-    color:#FFA69E;
+    color: #1D4ED8;
     text-decoration: underline;
 }
 
@@ -67,10 +76,12 @@ a:hover, a:active{
 .card{
     padding: 3%;
     border-radius: 10px;
-    box-shadow: 0 0 10px #008F6D;
+    box-shadow: 0 4px 12px var(--shadow);
     margin: 2%;
     color: var(--darkerText);
-    transition: tranform 0.3s;
+    transition: transform 0.3s ease;
+    background: white;
+
 }
 
 .card:hover{
@@ -103,10 +114,11 @@ h5,p{
 .project{
     padding: 3%;
     border-radius: 10px;
-    box-shadow: 0 0 10px #008F6D;
+    box-shadow: 0 4px 12px var(--shadow);
     margin: 2%;
     color: var(--darkerText);
-    transition: tranform 0.3s;
+    transition: transform 0.3s ease;
+    background: white;
 }
 
 .projectDetails{
