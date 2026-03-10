@@ -96,9 +96,9 @@ a:active{
 .infoCards,
 .projects{
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1.5rem;
-    max-width: 800px;
+    max-width: 900px;
     margin: 2rem auto;
 }
 
@@ -144,13 +144,13 @@ h5,p{
 .projectInfo,
 .return{
     display: flex;
-    justify-content: right;
-    gap: 2%;
+    justify-content: flex-end;
+    gap: 12px;
 }
 
 /* Responsive */
 @media (max-width: 768px) {
-    h1 { font-size: 50px; }
+    h1 { font-size: 36px; }
     p { font-size: 18px; }
 
     .container {
