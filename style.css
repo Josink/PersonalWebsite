@@ -48,7 +48,9 @@ body{
 
 .container{
     background: var(--cardBg);
-    max-width: 70%;
+    max-width: 900px;
+    width: 90%;
+    margin: 40px auto;
     padding: 5%;
     border-radius: 12px;
     box-shadow: 0 8px 24px var(--shadow);
@@ -129,9 +131,10 @@ a:active{
 }
 
 .details{
-    text-align: left;
     display: flex;
-    gap: 80%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 4px;
 }
 
 h5,p{
