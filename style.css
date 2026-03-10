@@ -110,12 +110,13 @@ a:active{
     box-shadow: 0 6px 18px var(--shadow);
     margin: 2%;
     color: var(--darkerText);
-    transition: transform 0.3s ease, background 0.3s ease;
+    transition: transform 0.3s ease, background 0.3s ease, box-shadow 0.25s ease;
 }
 
 .card:hover,
 .project:hover{
-    transform: translateY(-6px);
+    transform: translateY(-4px);
+    box-shadow: 0 10px 30px var(--shadow);
 }
 
 .projectDetails,
@@ -162,4 +163,13 @@ h5,p{
 @media (max-width: 480px) {
     h1 { font-size: 40px; }
     p { font-size: 16px; }
+}
+
+@media (max-width: 480px) {
+    .theme-toggle{
+        top: 10px;
+        right: 10px;
+        font-size: 12px;
+        padding: 6px 10px;
+    }
 }
